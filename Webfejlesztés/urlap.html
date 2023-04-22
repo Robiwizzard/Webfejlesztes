@@ -10,31 +10,37 @@
         <label for="name">Név:</label><br>
         <input type="text" id="name" name="name"><br>
         <label for="box.text">Szöveg</label><br>
-        <input type="text" id="box-text" name="name"><br>
+        <input type="text" id="box-text" name="box-text"><br>
         <select id="type">
+            <option value=""></option>
             <option value="creature">Creature</option>
-            <option value="creature">Instant</option>
-            <option value="creature">Sorcery</option>
-            <option value="creature">Land</option>
+            <option value="land">Land</option>
+            <option value="instant">Instant</option>
+            <option value="sorcery">Sorcery</option>
+            <option value="artifact">Artifact</option>
+            <option value="enchantment">Enchantment</option>
+            <option value="legendary">Legendary</option>
+
         </select><br>
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> Fehér</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> Kék</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3"> Fekete</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> Piros</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3">Zöld</label><br>
+        <input type="checkbox" id="color1" name="color1" value="White">
+        <label for="color1"> Fehér</label><br>
+        <input type="checkbox" id="color2" name="color2" value="Blue">
+        <label for="color2"> Kék</label><br>
+        <input type="checkbox" id="color3" name="color3" value="Black">
+        <label for="color3"> Fekete</label><br>
+        <input type="checkbox" id="color4" name="color4" value="Red">
+        <label for="color2"> Piros</label><br>
+        <input type="checkbox" id="color4" name="color3ó4" value="Green">
+        <label for="color3">Zöld</label><br>
 
-        <input type="radio" id="html" name="fav_language" value="HTML">
-        <label for="html">Név</label><br>
-        <input type="radio" id="css" name="fav_language" value="CSS">
-        <label for="css">Mana Költség</label><br>
-        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-        <label for="javascript">Ár (eur)</label>
+        <input type="radio" id="ord_name" value="HTML">
+        <label for="ord_name">Név</label><br>
+        <input type="radio" id="ord_mana" value="CSS">
+        <label for="ord_mana">Mana Költség</label><br>
+        <input type="radio" id="ord_price" value="JavaScript">
+        <label for="ord_price">Ár (eur)</label>
 
+        <button type="reset">Törlés</button>
         <button type="submit">Keresés</button>
     </form>
     <script src="./urlap.js"></script>
