@@ -10,7 +10,7 @@ function oracleTransform(text) {
     escapedOracle = escapedOracle + "oracle%3A" + element + "+"
   }
 
-  escapedOracle = escapedOracle + "%29"
+  escapedOracle = "asd"
   console.log(escapedOracle)
   
 
